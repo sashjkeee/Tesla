@@ -1,0 +1,464 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('../fonts/roboto-medium-webfont.eot');
+    src: url('../fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-medium-webfont.woff') format('woff'),
+         url('../fonts/roboto-medium-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/roboto-light-webfont.eot');
+    src: url('../fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-light-webfont.woff') format('woff'),
+         url('../fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-bold-webfont.woff') format('woff'),
+         url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pt_sansregular';
+    src: url('../fonts/ptsans-webfont.eot');
+    src: url('../fonts/ptsans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptsans-webfont.woff') format('woff'),
+         url('../fonts/ptsans-webfont.ttf') format('truetype'),
+         url('../fonts/ptsans-webfont.svg#pt_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'tondo_corpsignage';
+    src: url('../fonts/tondocorp-signage-webfont.eot');
+    src: url('../fonts/tondocorp-signage-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/tondocorp-signage-webfont.woff') format('woff'),
+         url('../fonts/tondocorp-signage-webfont.ttf') format('truetype'),
+         url('../fonts/tondocorp-signage-webfont.svg#tondo_corpsignage') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.medium, button, input[type="button"] {
+    font-family: 'robotomedium', sans-serif;
+}
+button, input[type="button"] {
+    color: white;
+    text-transform: uppercase;
+}
+strong {
+    font-family: 'robotobold', sans-serif;
+}
+.desc {
+    font-family: 'pt_sansregular', sans-serif;
+    color: #f6f5e5;
+    text-indent: 10px;
+    margin-top: 13px;
+}
+.popup_h1, .popup_h2 {
+    text-align: center;
+    color: white;
+}
+.popup_h1 {
+    font-family: 'robotobold', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.popup_h2 {
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+#logo p {
+    font-family: 'robotobold', sans-serif;
+    font-size: 20.5px;
+    text-transform: uppercase;
+    color: #fbf9f7;
+}
+#logo p span {
+    font-size: 23px;
+}
+.phone {
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+.phone button {
+    text-transform: none;
+}
+#hgroup h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+#hgroup h1 .black {
+    padding: 3px 12px;
+}
+#hgroup h2 .black {
+    font-size: 18px;
+    padding: 3px 8px;
+    margin-top: 4px;
+}
+#hgroup .red_span {
+    padding: 3px 12px;
+    font-size: 60px;
+    margin-top: 3px;
+    line-height: 60px;
+}
+#block1 h1 {
+    font-family: 'robotomedium', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    color: white;
+    text-transform: uppercase;
+}
+#block1 h1 small {
+    font-family: 'robotoregular', sans-serif;
+    display: block;
+    font-size: 18px;
+    line-height: 18px;
+}
+#elem1, #elem2 {
+    color: white;
+}
+#elem1 h2 {
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+}
+#elem2 h2 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+}
+#elem2 h2 span {
+    display: block;
+    margin-left: 70px;
+}
+#elem1 h2 strong, #elem2 h2 strong {
+    font-family: 'robotobold', sans-serif;
+}
+blockquote, address {
+    color: white;
+    text-align: center;
+}
+#block1 blockquote, #block1 #name {
+    font-family: 'robotomedium', sans-serif;
+    font-size: 24px;
+}
+#block1 #name {
+    font-size: 16px;
+    line-height: 16px;
+    margin-top: 18px;
+}
+#block1 p + p {
+    margin-top: 14px;
+}
+#block2 h1, #block2 h2 {
+    font-family: 'robotomedium', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: black;
+}
+#block2 h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+#models h3 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    color: black;
+}
+#models h3 strong {
+    font-size: 15px;
+    color: #c91a13;
+    text-transform: uppercase;
+}
+#models li {
+    font-size: 16px;
+    color: black;
+}
+.characteristics + p {
+    font-size: 21px;
+}
+#block3 h1 {
+    font-family: 'robotomedium', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: white;
+}
+#block4 h1 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: black;
+}
+#block4 h1 strong {
+    font-size: 36px;
+}
+#block4 figcaption {
+    font-family: 'robotobold', sans-serif;
+    font-size: 23px;
+    color: black;
+    line-height: 24px;
+}
+#block5 address {
+    font-size: 16px;
+}
+#block5 #name2 {
+    font-family: 'robotomedium', sans-serif;
+    text-transform: uppercase;
+}
+#block5 h1 {
+    font-family: 'robotomedium', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+#block5 h1 + blockquote {
+    font-size: 18px;
+    text-align: left;
+}
+#block5 h2 {
+    font-family: 'tondo_corpsignage', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+#block6 h1 {
+    font-family: 'robotomedium', sans-serif;
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+#block6 h1 strong {
+    font-family: 'robotomedium', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+}
+#block7 h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    line-height: 30px;
+}
+#block7 h2 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 30.41px;
+    text-transform: uppercase;
+}
+#terms {
+    color: white;
+}
+#block8 h1 {
+    font-family: 'robotomedium', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    color: black;
+    text-transform: uppercase;
+}
+#block8 h1 strong {
+    font-family: 'robotomedium', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+}
+#list_top h3 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+}
+#list_bottom {
+    font-size: 16px;
+    color: black;
+}
+#list_bottom h4 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#block8 .red_border {
+    color: white;
+    font-family: 'robotolight', sans-serif;
+    font-size: 20px;
+}
+#block8 legend {
+    font-family: 'robotobold', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+#block9 h1 {
+    font-size: 48px;
+    line-height: 48px;
+    color: white;
+    text-transform: uppercase;
+}
+#block9 h1 small {
+    font-size: 36px;
+}
+#block9 h2 {
+    color: white;
+    font-size: 20px;
+}
+#block10 h1 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 36px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: black;
+}
+#block10 h1 .medium {
+    font-size: 24px;
+}
+#block11 h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fbfafa;
+}
+#block11 h1 .red_span {
+    padding: 0 18px;
+}
+#block11 h2 {
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+}
+#block11 h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#block11 h3 .black {
+    padding: 0 10px;
+}
+#block12 h1 {
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #010101;
+}
+#block12 h1 strong {
+    font-family: 'robotomedium', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+}
+#block12 .font h2 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+#block12 .font figure + figure h2 {
+    font-family: 'robotomedium', sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+#benefits h2 {
+    font-family: 'robotomedium', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+}
+#benefits p, #envelope {
+    font-size: 16px;
+}
+#block13 h1, #block13 h2 {
+    font-family: 'robotomedium', sans-serif;
+    font-size: 36px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+#block13 h2 {
+    text-align: left;
+    font-family: 'robotobold', sans-serif;
+}
+#block13 h2 small {
+    display: block;
+    font-family: 'robotoregular', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: none;
+    margin-top: 5px;
+}
+#block13 ul {
+    font-size: 16px;
+    color: white;
+}
+#block14 h1 {
+    font-family: 'robotobold', sans-serif;
+    color: black;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+#block14 h1 + a,
+footer .phone a {
+    display: inline-block;
+    text-align: center;
+    margin-left: 420px;
+    font-size: 21px;
+    color: #11c4ea;
+    border-bottom: 1px dashed #11c4ea;
+}
+#block14 h1 + a:hover,
+footer .phone a:hover {
+    border-bottom: none;
+}
+#block15 h1 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: black;
+    text-align: left;
+}
+#block15 h2 {
+    font-size: 24px;
+    color: black;
+    text-align: left;
+}
+footer .phone {
+    line-height: 24px;
+    text-align: right;
+}
+footer .phone a {
+    display: inline;
+    font-size: 18px;
+    margin-left: 0;
+}
+#copyright {
+    font-size: 14px;
+    text-decoration: underline;
+    color: black;
+}
+#mokselle {
+    font-size: 14px;
+    color: black;
+}
+#thx .popup_h2 {
+    font-family: 'robotolight', sans-serif;
+    font-size: 16px;
+}
